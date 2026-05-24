@@ -1,0 +1,179 @@
+# Fundamentals of Storage
+*A Technical Overview for Modern Computing Systems*
+
+---
+
+## 1. Introduction
+
+Storage is a core component of any computing system, responsible for retaining data, system instructions, and user information. The choice of storage technology directly impacts system performance, reliability, scalability, and cost. Over the years, storage solutions have evolved from mechanical systems to high-speed solid-state and advanced experimental technologies to support modern data growth.
+
+---
+
+## 2. Volatile vs Non-Volatile Storage
+
+Storage is broadly classified based on whether it can retain data without power.
+
+**Volatile storage** requires continuous power to maintain stored data. When power is turned off, all stored information is lost immediately. This type of memory is very fast and is mainly used for temporary processing tasks inside the system. It plays a critical role in enabling quick execution of instructions by the CPU.
+
+**Non-volatile storage** retains data even when power is removed. This makes it suitable for permanent storage needs such as operating systems, applications, and user files. Although it is generally slower than volatile storage, it provides persistence, which is essential for any computing system.
+
+In real-world systems, both types are used together. Volatile storage improves processing speed, while non-volatile storage ensures long-term data availability.
+
+---
+
+## 3. Hard Disk Drive (HDD)
+
+The Hard Disk Drive is a traditional storage device that uses magnetic technology.
+
+### Working Principle
+
+An HDD consists of rotating disks called platters that are coated with magnetic material. These platters spin at high speed, and a mechanical arm with a read/write head moves across their surface to access data. Data is stored by magnetizing small regions on the disk, and the read/write head detects or modifies these magnetic states to read or write information.
+
+### Characteristics
+
+HDDs are known for providing large storage capacity at a low cost per gigabyte. Because they rely on mechanical movement, they are slower in accessing data compared to modern storage systems. They also consume more power and are more prone to physical damage.
+
+### Usage
+
+HDDs are widely used in scenarios where large storage capacity is required, such as data backups, archival storage, and media storage systems.
+
+---
+
+## 4. Solid State Drive (SSD)
+
+Solid State Drives are modern storage devices that use flash memory instead of mechanical components.
+
+### Architecture and Operation
+
+An SSD consists of NAND flash memory chips, a controller, and firmware. Data is stored as electrical charges within memory cells organized into pages and blocks. The controller manages data operations, including error correction, wear leveling, and garbage collection.
+
+### Advantages
+
+SSDs provide faster data access because there are no moving parts. This results in improved system responsiveness, faster boot times, and better application performance. They are also more durable, energy efficient, and quieter compared to HDDs.
+
+### Limitations
+
+The main drawback of SSDs is higher cost per gigabyte. However, due to their performance advantages, they are widely used in modern computing systems.
+
+### HDD vs SSD
+
+| Feature        | HDD                         | SSD                          |
+|----------------|-----------------------------|-------------------------------|
+| Technology     | Magnetic (mechanical)       | Flash (electronic)            |
+| Speed          | Slower                      | Faster                        |
+| Durability     | Lower                       | Higher                        |
+| Cost per GB    | Lower                       | Higher                        |
+| Power Usage    | Higher                      | Lower                         |
+
+---
+
+## 5. eMMC (Embedded MultiMediaCard)
+
+eMMC is a compact storage solution used in entry-level devices.
+
+### Design
+
+In eMMC, storage and controller are integrated into a single chip, simplifying design and reducing cost.
+
+### Performance
+
+Operations in eMMC are handled sequentially, which limits its ability to perform multiple tasks efficiently. This results in moderate performance compared to newer technologies.
+
+### Usage
+
+eMMC is commonly used in budget smartphones, tablets, and entry-level laptops where cost is a major factor.
+
+---
+
+## 6. Universal Flash Storage (UFS)
+
+UFS is an advanced storage technology developed to overcome the limitations of eMMC.
+
+### Working Mechanism
+
+UFS uses a serial interface and supports full-duplex communication, allowing simultaneous read and write operations. It also includes advanced command processing for improved efficiency.
+
+### Benefits
+
+UFS provides higher speed, lower latency, and better multitasking performance. It improves real-world tasks such as application loading, file transfers, and high-resolution video processing.
+
+### UFS vs eMMC
+
+| Feature            | eMMC                      | UFS                          |
+|--------------------|--------------------------|-------------------------------|
+| Data Transfer      | Sequential               | Simultaneous (Read/Write)     |
+| Speed              | Moderate                 | High                          |
+| Multitasking       | Limited                  | Efficient                     |
+| Device Usage       | Budget devices           | Mid/High-end devices          |
+
+---
+
+## 7. DNA Storage
+
+DNA storage is an experimental approach where digital data is encoded into DNA sequences.
+
+### Working Concept
+
+Binary data is converted into sequences of nucleotides (A, T, C, G). These sequences are synthesized into DNA strands. To retrieve data, sequencing technology is used to decode the stored information back into digital form.
+
+### Advantages
+
+DNA storage provides extremely high storage density and can preserve data for very long durations. It is suitable for long-term archival storage.
+
+### Challenges
+
+The current limitations include high cost, slow data access, and complex processing requirements. It is still under development.
+
+---
+
+## 8. MRAM (Magnetic Random Access Memory)
+
+MRAM is a next-generation memory technology that uses magnetic states to store data.
+
+### Working Principle
+
+Each memory cell stores data using magnetic orientation instead of electrical charge. This allows data to be retained even without power.
+
+### Benefits
+
+MRAM offers high speed similar to RAM along with non-volatile characteristics. It has high endurance and low power consumption, making it suitable for future systems.
+
+---
+
+## 9. HAMR (Heat-Assisted Magnetic Recording)
+
+HAMR is an advanced technique designed to increase HDD capacity.
+
+### Working Mechanism
+
+A laser is used to heat the magnetic material on the disk during the write process. This reduces the material’s resistance, allowing data to be written more densely.
+
+### Importance
+
+HAMR helps increase storage capacity without increasing disk size, making it useful for large-scale storage systems such as data centers.
+
+---
+
+## 10. Glass Storage
+
+Glass storage is a long-term storage technology designed for extreme durability.
+
+### Working Principle
+
+Data is written into glass using laser-generated microscopic structures. These structures store information in multiple dimensions.
+
+### Advantages
+
+Glass storage is highly resistant to environmental factors and can preserve data for very long periods, even thousands of years.
+
+### Usage
+
+It is ideal for archival storage where long-term data preservation is critical.
+
+---
+
+## 11. Conclusion
+
+Storage technologies have evolved significantly from mechanical HDDs to advanced solid-state systems like SSDs and UFS. Emerging technologies such as DNA storage, MRAM, HAMR, and glass storage are addressing future challenges related to data growth, durability, and efficiency.
+
+Each storage type has its own strengths and limitations, and the right choice depends on performance requirements, cost considerations, and long-term storage needs. A strong understanding of these fundamentals is essential for designing efficient and reliable computing systems.
