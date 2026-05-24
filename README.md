@@ -3,7 +3,7 @@ NOTES on storage technology in different fields
 
 INDEX
 
-basic intro: basic intro
+basic intro: https://github.com/pavaneswarakula/storage_technology/blob/main/basic%20intro
 
 STORAGE tECHNOLOGY :
 
